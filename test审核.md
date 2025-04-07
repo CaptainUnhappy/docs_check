@@ -10,6 +10,7 @@
    ```
    - 没有解释$TAT是什么，新用户可能不了解这个缩写代表什么
    - 没有详细说明"underlying various asset production"具体指的是哪些资产
+   - 不理解的概念："$TAT"的具体含义和用途
 
 2. **概念不明确**：
    ```
@@ -17,6 +18,7 @@
    ```
    - 没有解释什么是"Oracle Feeder Tool"
    - 没有说明"whitelisted data sources"包括哪些数据源
+   - 不理解的概念："Oracle module"和"Oracle Feeder Tool"的具体功能和区别
 
 3. **公式表达有误**：
    ```
@@ -28,10 +30,11 @@
 
 4. **概念连接不清晰**：
    ```
-   The oil price discount is a unique rule for this asset class, different oil grades correspond to different values. Acidity, and API gravity of the Oil production matters.
+   The oil price discount is a unique rule for this asset class, different oil grades correspond to different values. Acidity, and API gravity of the Oil production matters. These three values will affect the size of the oil price discount for this well, specifically as follows:
    ```
+   - 提到"These three values"但只列出了两个值(API重力和酸度)
    - 没有明确解释API重力值的含义和重要性
-   - 提到"这三个值"但只列出了两个值(API重力和酸度)
+   - 不理解的概念："API gravity"的具体含义和测量方法
 
 ### 语法问题
 
@@ -51,6 +54,7 @@
    $TAT 旨在记录各种资产生产的经济价值。
    ```
    - 没有解释$TAT是什么，新用户可能不了解这个缩写代表什么
+   - 不理解的概念："$TAT"的具体含义和用途
 
 2. **概念不明确**：
    ```
@@ -58,6 +62,7 @@
    ```
    - 没有解释什么是"Oracle Feeder 工具"
    - 没有说明"白名单数据源"包括哪些数据源
+   - 不理解的概念："Oracle 模块"和"Oracle Feeder 工具"的具体功能和区别
 
 3. **公式表达有误**：
    ```
@@ -73,6 +78,7 @@
    ```
    - 提到"这三个值"但只列出了两个值(API重力和酸度)
    - 没有明确解释API重力值的含义和重要性
+   - 不理解的概念："API 重力值"的具体含义和测量方法
 
 ### 语法问题
 
@@ -107,7 +113,7 @@
 
 4. **概念连接明确化**：
    - 明确解释API重力值的含义和重要性
-   - 澄清"这三个值"指的是哪三个值，或修改为"这两个值"
+   - 澄清"These three values"指的是哪三个值，或修改为"These two values"
    - 示例："API gravity (a measure of how heavy or light petroleum liquid is compared to water) and acidity of the oil production are critical factors. These two values will affect..."
 
 ### 中文部分
@@ -132,15 +138,4 @@
 4. **概念连接明确化**：
    - 明确解释API重力值的含义和重要性
    - 澄清"这三个值"指的是哪三个值，或修改为"这两个值"
-   - 示例："油的API重力值（衡量石油液体与水相比的轻重程度的指标）和酸度是关键因素。这两个值将影响..."
-
-## 优先改进项
-
-1. 解释$TAT的完整含义
-2. 统一公式中的乘法符号表示法
-3. 澄清"这三个值"的表述问题
-4. 添加API重力值的解释
-
-## 总体评价
-
-文档整体结构清晰，中英文内容对应一致，但存在一些术语解释不足和表达不准确的问题。通过实施上述改进建议，可以显著提高文档的清晰度和专业性，使用户更容易理解市场价值的计算方法和相关概念。 
+   - 示例："油的API重力值（衡量石油液体与水相比的轻重程度的指标）和酸度是关键因素。这两个值将影响..." 
