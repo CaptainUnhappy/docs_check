@@ -42,6 +42,12 @@
    - 未说明如何补救或恢复铸造权限
    - 没有说明具体的审核时间表和截止日期
 
+3. **内部链接缺失**
+  ```
+  Producers log into the Production Portal, first go through KYB (business verification), and then KYC (personal verification).
+  ```
+  - `Production Portal` & `KYB` & `KYC` 等内部操作界面，附上去其界面的链接更好
+
 ## 改进建议
 
 1. **内容完整性改进**：
